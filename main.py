@@ -45,25 +45,25 @@ def readData(filename):
     return dictionary
 
 dikt = readData("WPP2017_TotalPopulationBySex.csv")
+def visualisationWorld():
+    europe = []
+    america = []
+    asia = []
+    africa = []
+    australia = []
+    continents = ["Europe", "America", "Asia", "Africa", "Australia/New Zealand"]
+    yearsRange = range(1950, 2018)  #interval is adjustable(1950-2100)
+    for continent in continents:
+        for i in yearsRange:
+            if continent == "Europe": europe.append(dikt[(str(i), continent)])
+            elif continent == "America": america.append(dikt[(str(i), continent)])
+            elif continent == "Asia": asia.append(dikt[(str(i), continent)])
+            elif continent == "Africa": africa.append(dikt[(str(i), continent)])
+            elif continent == "Australia/New Zealand": australia.append(dikt[(str(i), continent)])
 
-europe = []
-america = []
-asia = []
-africa = []
-australia = []
-continents = ["Europe", "America", "Asia", "Africa", "Australia/New Zealand"]
-yearsRange = range(1950, 2018)  #interval is adjustable(1950-2100)
-for continent in continents:
-    for i in yearsRange:
-        if continent == "Europe": europe.append(dikt[(str(i), continent)])
-        elif continent == "America": america.append(dikt[(str(i), continent)])
-        elif continent == "Asia": asia.append(dikt[(str(i), continent)])
-        elif continent == "Africa": africa.append(dikt[(str(i), continent)])
-        elif continent == "Australia/New Zealand": australia.append(dikt[(str(i), continent)])
+    x = yearsRange
+    plt.stackplot(x, europe, america, asia, africa, australia, labels=['Europe', 'America', "Asia", "Africa", "Australia"])
+    plt.legend(loc='upper left')
+    plt.show()
 
-x = yearsRange
-plt.stackplot(x, europe, america, asia, africa, australia, labels=['Europe', 'America', "Asia", "Africa", "Australia"])
-plt.legend(loc='upper left')
-plt.show()
-
-
+visualisationWorld()
