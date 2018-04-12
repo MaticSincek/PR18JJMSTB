@@ -14,6 +14,7 @@ def readData(filename):
     dictionary = defaultdict(list)
     reader = DictReader(open(filename, 'rt', encoding='utf-8'))
     for row in reader:
+        print(row)
         country = row["Location"]
         time = row["Time"]
         births = row[argument]
