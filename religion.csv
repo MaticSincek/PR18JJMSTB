@@ -1,0 +1,158 @@
+country,gdp_pc,gpi_rank,gpi_score,percentage_non_religious
+Iceland,38300,1,1.113,10.04
+Denmark,36600,2,1.239,6.9
+New Zealand,27700,2,1.239,34.6
+Canada,39400,4,1.317,25.5
+Japan,34000,5,1.326,77
+Austria,40400,6,1.328,30.2
+Ireland,37300,6,1.328,6.3
+Slovenia,28200,8,1.33,30
+Finland ,35400,9,1.348,16
+Switzerland,42600,10,1.349,15.4
+Belgium,37800,11,1.376,42.5
+Czech Republic,25600,13,1.396,67.8
+Sweden,39100,14,1.419,31.5
+Germany,35700,15,1.424,40
+Portugal,23000,16,1.47,8.38
+Hungary,18800,17,1.476,24.7
+Norway,54600,18,1.48,6.7
+Bhutan,5500,19,1.481,0
+Malaysia,14700,20,1.485,0.8
+Mauritius,2100,21,1.487,0.7
+Australia,41000,22,1.494,19
+Singapore,62100,23,1.521,13
+Poland,18800,24,1.524,3
+Spain,29400,25,1.548,30
+Slovakia,22000,26,1.59,15.8
+Taiwan,35700,27,1.602,0
+Netherlands,40300,28,1.606,59
+United Kingdom,34800,29,1.609,33.75
+Chile,15400,30,1.616,8.3
+Botswana,14000,31,1.621,1
+Romania,11600,32,1.627,0.1
+Uruguay,13700,33,1.628,17
+Vietnam,3100,34,1.641,1.2
+Croatia,17400,35,1.648,3.6
+Costa Rica,11300,36,1.659,6.2
+Laos,2500,37,1.662,0.25
+Italy,30500,38,1.69,20.5
+Bulgaria,13500,39,1.699,0
+France,33100,40,1.71,47.5
+Estonia,19100,41,1.715,60
+South Korea,30000,42,1.734,52
+Lithuania,16000,43,1.741,9.5
+Argentina,14700,44,1.763,1.19
+Latvia,14700,45,1.774,24.5
+United Arab Emirates,49600,46,1.785,0
+Kuwait,48900,47,1.792,0.07
+Mozambique,1000,48,1.796,5
+Namibia,6900,49,1.804,0
+Ghana,2500,50,1.807,6.1
+Zambia,1500,51,1.83,5
+Sierra Leone,900,52,1.855,0
+Lesotho,1700,53,1.864,0
+Morocco,4800,54,1.867,0
+Tanzania,1400,55,1.873,0.5
+Burkina Faso,1200,56,1.881,0
+Djibouti ,2800,56,1.881,0
+Mongolia,3600,58,1.884,38.6
+Oman,25600,59,1.887,0.2
+Malawi,800,60,1.894,4.3
+Panama,13000,61,1.899,2
+Jordan,5400,62,1.905,0
+Indonesia,4200,63,1.913,0
+Serbia,10900,64,1.92,5
+Bosnia Herzegovina,6600,65,1.923,9.9
+Albania,8000,66,1.927,8.5
+Moldova,2500,66,1.927,0.1
+Macedonia (FYR),9700,68,1.935,0
+Guyana,7200,69,1.937,4
+Cuba,9900,70,1.951,9
+Ukraine,6700,71,1.953,0
+Tunisia,9400,72,1.955,0
+Cyprus,28900,73,1.957,1.3
+Gambia,1900,74,1.961,0
+Gabon,14500,75,1.972,5
+Paraguay,5200,76,1.973,3.25
+Greece,29600,77,1.976,0
+Senegal,1900,78,1.994,0
+Peru,9200,79,1.995,2
+Nepal,1200,80,2.001,0
+Montenegro,10100,81,2.006,4.25
+Nicaragua,3000,81,2.006,2
+Brazil,10800,83,2.017,7.6
+Bolivia,4800,84,2.021,2
+Ecuador,7800,85,2.028,1.5
+Swaziland,4500,85,2.028,1
+Equatorial Guinea,36600,87,2.039,1
+United States of America,47200,88,2.058,15.1
+China,7600,89,2.061,50
+Dominican Republic,9800,90,2.068,6.55
+Bangladesh,1700,91,2.071,0
+Guinea,1000,92,2.073,0
+Papua New Guinea,2500,93,2.076,0
+Trinidad and Tobago,21200,94,2.082,3.3
+Angola,8200,95,2.105,0.3
+Guinea-Bissau,1100,95,2.105,0
+Cameroon,2300,97,2.113,0
+Uganda,1300,98,2.121,0.9
+Madagascar,900,99,2.124,0.4
+Tajikistan,2000,99,2.124,0.1
+Liberia,500,101,2.131,0.1
+Mali,1200,102,2.132,0
+Sri Lanka,5000,103,2.145,0
+Republic of Congo,300,104,2.148,0
+Kazakhstan,12700,105,2.151,5
+Saudi Arabia,24200,106,2.178,0
+Haiti,1200,107,2.179,1
+Cambodia,2100,108,2.207,0.4
+Belarus,13600,109,2.208,0
+Uzbekistan,3100,110,2.219,1.2
+Egypt,6200,111,2.22,0
+El Salvador,7200,111,2.22,1
+Jamaica,8300,113,2.222,3
+Benin,1500,114,2.231,6.5
+Armenia,5700,115,2.238,0
+Niger,700,116,2.241,0
+Turkmenistan,7500,117,2.242,1.7
+Bahrain,40300,118,2.247,0
+Rwanda,1100,119,2.25,1.7
+Kenya,1600,120,2.252,0
+Algeria,7300,121,2.255,0
+Eritrea,600,122,2.264,0.1
+Venezuela,12700,123,2.278,0.5
+Guatemala,5200,124,2.287,1.9
+Mauritania,2100,125,2.301,0.1
+Thailand,8700,126,2.303,0
+South Africa,10700,127,2.321,1
+Iran,10600,128,2.324,0
+Honduras,4200,129,2.339,1.1
+Turkey,7500,130,2.344,0
+Kyrgyz Republic,2200,131,2.359,0
+Azerbaijan,10900,132,2.36,0
+Philippines,3500,133,2.415,0.1
+Ivory Coast,1800,134,2.419,0
+Mexico,13900,135,2.445,10.64
+Lebanon,14400,136,2.459,0
+Ethiopia,1000,137,2.504,0
+Burundi,300,138,2.524,0
+Myanmar,1400,139,2.525,0
+Zimbabwe,500,140,2.538,1.1
+Georgia,4900,141,2.541,0.7
+India,3500,142,2.549,0.1
+Yemen,2700,143,2.601,0.02
+Colombia,9800,144,2.625,2
+Chad,1600,145,2.671,4.8
+Nigeria,2500,146,2.801,0
+Libya,14000,147,2.83,0.2
+Syria,4800,147,2.83,0
+Pakistan,2500,149,2.833,0.2
+Israel,29800,150,2.842,3.4
+Central African Republic,700,151,2.872,0
+North Korea,1800,152,2.932,12.5
+Russia,15900,153,2.938,32
+Democratic Republic of the Congo,300,154,3.073,0
+Iraq,3800,155,3.192,0
+Sudan,2300,156,3.193,0
+Afghanistan,900,157,3.252,0
+Somalia,600,158,3.392,0
