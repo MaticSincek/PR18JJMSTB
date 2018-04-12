@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 filename = "WPP2017_Period_Indicators_Medium.csv"
 
 #-----Tukaj vstavi argument-------
-argument = "SRB"
+argument = "NetMigrations"
 #---------------------------------
 
 region = defaultdict()
@@ -14,7 +14,6 @@ def readData(filename):
     dictionary = defaultdict(list)
     reader = DictReader(open(filename, 'rt', encoding='utf-8'))
     for row in reader:
-        print(row)
         country = row["Location"]
         time = row["Time"]
         births = row[argument]
@@ -46,10 +45,10 @@ plt.plot(x, np.array(region["Asia"][:13]), label='Azija')
 plt.plot(x, np.array(region["Africa"][:13]), label='Afrika')
 plt.plot(x, np.array(region["Australia"][:13]), label='Avstralija')
 
-print(region["Europe"][:13])
-print(region["Africa"][:13])
+plt.xlabel("Leto")
+plt.ylabel("Število rojstev")
+plt.title("Average number of children around the world through years.")
 
-#plt.yticks(np.arange(0, 10000, 1000))
-plt.legend(loc='middle left')
+plt.legend(loc='upper left')
 
 plt.show()
